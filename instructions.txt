@@ -1,0 +1,31 @@
+compress the gif at http://compressor.io
+Upload the gif to /img/thumbs/
+Copy-paste another grid item like this, inside grid div.
+
+
+		<div class="grid-item">
+			<img src="img/thumbs/__gif-name__.gif" alt="__gif-name__" />
+			<div class="overlaytile" data-target="#__target-name (kuch bhi daal de, but keep it same as id neeche, also, don't remove the hash symbol)__" data-toggle="modal" data-src="__embed link__">
+				<div class="title">__Title__</div>
+				<div class="tags">__tags__</div>
+			</div>
+			<div class="modal fade" id="__target-name (kuch bhi daal de, bas same target name daalna like the one from data-target)__" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="title">__Title__</div>
+							<div class="descr">
+								__Descr__
+							</div>
+							<div class="embed">
+								<iframe frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
